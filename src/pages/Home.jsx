@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const api = "http://localhost:5000/api/todos"; // Change to production URL when deployed
+const api = "https://todo-backend-production-ff45.up.railway.app/api/todos"; // Change to production URL when deployed
 
 function Home() {
     const [todos, setTodos] = useState([]);
